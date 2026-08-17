@@ -3,28 +3,31 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Haozhong Xiong | Publications</title>
+    <title>Haozhong Xiong | Nanjing University</title>
     <meta
       name="description"
-      content="Selected publications by Haozhong Xiong, including UniSwap, LiveAnimate, DSAR, and Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation."
+      content="Haozhong Xiong's academic homepage: computer vision, generative video, diffusion models, human animation, and animatable avatars."
     >
-    <meta property="og:title" content="Haozhong Xiong | Publications">
     <meta
-      property="og:description"
-      content="UniSwap, LiveAnimate, DSAR, and Rethinking CFG in OPD on arXiv."
+      name="keywords"
+      content="Haozhong Xiong, Nanjing University, computer vision, generative video, diffusion models, human animation, animatable avatars"
     >
-    <meta property="og:type" content="website">
     <link rel="stylesheet" href="styles.css">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "ProfilePage",
-        "name": "Haozhong Xiong | Publications",
+        "name": "Haozhong Xiong",
         "mainEntity": {
           "@type": "Person",
           "name": "Haozhong Xiong",
           "email": "mailto:xhznju011@gmail.com",
-          "url": "https://github.com/hhxphh",
+          "affiliation": {
+            "@type": "CollegeOrUniversity",
+            "name": "Nanjing University"
+          },
+          "address": "Nanjing",
+          "url": "https://hhxphh.github.io/",
           "sameAs": [
             "https://github.com/hhxphh",
             "https://huggingface.co/xhznju",
@@ -32,6 +35,13 @@
           ]
         },
         "about": [
+          {
+            "@type": "ScholarlyArticle",
+            "name": "DSAR: Dual-Stream Autoregressive Modeling of Temporal Cloth Dynamics for Photorealistic Animatable Avatars",
+            "identifier": "arXiv:2608.10500",
+            "url": "https://arxiv.org/abs/2608.10500",
+            "datePublished": "2026-08-11"
+          },
           {
             "@type": "ScholarlyArticle",
             "name": "UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos",
@@ -48,13 +58,6 @@
           },
           {
             "@type": "ScholarlyArticle",
-            "name": "DSAR: Dual-Stream Autoregressive Modeling of Temporal Cloth Dynamics for Photorealistic Animatable Avatars",
-            "identifier": "arXiv:2608.10500",
-            "url": "https://arxiv.org/abs/2608.10500",
-            "datePublished": "2026-08-11"
-          },
-          {
-            "@type": "ScholarlyArticle",
             "name": "Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation",
             "identifier": "arXiv:2607.24731",
             "url": "https://arxiv.org/abs/2607.24731",
@@ -65,180 +68,195 @@
     </script>
   </head>
   <body>
-    <main class="page-shell">
-      <header class="profile-header">
-        <div>
-          <p class="eyebrow">Selected publications</p>
-          <h1>Haozhong Xiong</h1>
-          <p class="profile-email">
-            <a href="mailto:xhznju011@gmail.com">xhznju011@gmail.com</a>
-          </p>
-        </div>
-        <nav class="profile-links" aria-label="Profile links">
+    <div class="layout">
+      <aside class="sidebar" aria-label="Profile">
+        <div class="avatar" aria-hidden="true">HX</div>
+        <h1>Haozhong Xiong</h1>
+        <p class="role">Researcher in Computer Vision and Generative AI</p>
+        <p class="affiliation">Nanjing University</p>
+        <p class="location">Nanjing</p>
+        <p class="email">
+          <a href="mailto:xhznju011@gmail.com">xhznju011@gmail.com</a>
+        </p>
+        <nav class="profile-links" aria-label="External links">
           <a href="https://github.com/hhxphh">GitHub</a>
           <a href="https://huggingface.co/xhznju">Hugging Face</a>
-          <a href="mailto:xhznju011@gmail.com">Email</a>
           <a href="https://arxiv.org/search/?query=Haozhong+Xiong&searchtype=author">arXiv</a>
-          <a href="https://scholar.google.com/scholar?q=Haozhong+Xiong">Scholar search</a>
+          <a href="https://scholar.google.com/scholar?q=Haozhong+Xiong">Scholar Search</a>
         </nav>
-      </header>
+      </aside>
 
-      <section class="publication-grid" aria-label="Publications">
-        <article class="paper" id="uniswap">
-          <div class="paper-index">01</div>
-          <div class="paper-body">
-            <div class="paper-meta">
-              <span>arXiv:2608.11752</span>
-              <span>2026</span>
-              <span>cs.CV, cs.SD</span>
-            </div>
-            <h2>UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos</h2>
-            <p class="authors">
-              Yuxuan Zhang, <strong>Haozhong Xiong</strong>, Jiayi Song, Jinpeng Yu,
-              Yang Shi, Jiaming Liu, Ruihua Huang, Liwei Wang
-            </p>
-            <p class="summary">
-              Streaming audio-visual identity replacement for talking videos, covering both
-              reference appearance and vocal timbre while preserving source content and timing.
-            </p>
-            <div class="paper-actions">
-              <a href="https://arxiv.org/abs/2608.11752">Abstract</a>
-              <a href="https://arxiv.org/pdf/2608.11752">PDF</a>
-              <a href="https://doi.org/10.48550/arXiv.2608.11752">DOI</a>
-              <a href="#bibtex">BibTeX</a>
-            </div>
-          </div>
-        </article>
+      <main class="content">
+        <section id="about">
+          <h2>About Me</h2>
+          <p>
+            I am affiliated with Nanjing University. My research interests lie in
+            computer vision and generative modeling, especially video diffusion,
+            streaming generation, human animation, identity editing, diffusion
+            distillation, and photorealistic animatable avatars.
+          </p>
+        </section>
 
-        <article class="paper" id="liveanimate">
-          <div class="paper-index">02</div>
-          <div class="paper-body">
-            <div class="paper-meta">
-              <span>arXiv:2608.11745</span>
-              <span>2026</span>
-              <span>cs.CV</span>
-            </div>
-            <h2>LiveAnimate: Stable Long-Form Streaming Human Animation in Real-Time</h2>
-            <p class="authors">
-              Yuxuan Zhang, <strong>Haozhong Xiong</strong>, Yubo Huang, Jiayi Song,
-              Jinpeng Yu, Haofan Wang, Jiaming Liu, Ruihua Huang, Liwei Wang
-            </p>
-            <p class="summary">
-              A real-time long-form streaming animation system for pose-driven human video,
-              with bounded cache design and stable identity preservation.
-            </p>
-            <div class="paper-actions">
-              <a href="https://arxiv.org/abs/2608.11745">Abstract</a>
-              <a href="https://arxiv.org/pdf/2608.11745">PDF</a>
-              <a href="https://doi.org/10.48550/arXiv.2608.11745">DOI</a>
-              <a href="#bibtex">BibTeX</a>
-            </div>
-          </div>
-        </article>
+        <section id="interests">
+          <h2>Research Interests</h2>
+          <ul class="compact-list">
+            <li>Generative video models, diffusion transformers, and streaming inference.</li>
+            <li>Human animation, audio-visual identity editing, and controllable video generation.</li>
+            <li>Animatable avatars, temporal cloth dynamics, and on-policy diffusion distillation.</li>
+          </ul>
+        </section>
 
-        <article class="paper" id="dsar">
-          <div class="paper-index">03</div>
-          <div class="paper-body">
-            <div class="paper-meta">
-              <span>arXiv:2608.10500</span>
-              <span>ECCV 2026 accepted</span>
-              <span>cs.CV</span>
+        <section id="news">
+          <h2>News</h2>
+          <ul class="compact-list">
+            <li><strong>Aug. 2026</strong> DSAR is accepted to ECCV 2026 and released on arXiv.</li>
+            <li><strong>Aug. 2026</strong> UniSwap and LiveAnimate are released on arXiv.</li>
+            <li><strong>Jul. 2026</strong> Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation is released on arXiv.</li>
+          </ul>
+        </section>
+
+        <section id="publications">
+          <h2>Publications</h2>
+
+          <article class="publication">
+            <div class="paper-thumb avatar-paper">
+              <span>ECCV</span>
             </div>
-            <h2>DSAR: Dual-Stream Autoregressive Modeling of Temporal Cloth Dynamics for Photorealistic Animatable Avatars</h2>
-            <p class="authors">
-              <strong>Haozhong Xiong</strong>, Yao Yu, Yu Zhou, Sidan Du
-            </p>
-            <p class="summary">
-              A dual-stream autoregressive framework for photorealistic animatable avatars,
-              targeting temporally coherent cloth dynamics and generalization to new motion.
-            </p>
-            <div class="paper-actions">
-              <a href="https://arxiv.org/abs/2608.10500">Abstract</a>
-              <a href="https://arxiv.org/pdf/2608.10500">PDF</a>
-              <a href="https://doi.org/10.48550/arXiv.2608.10500">DOI</a>
-              <a href="#bibtex">BibTeX</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="paper" id="rethinking-cfg-opd">
-          <div class="paper-index">04</div>
-          <div class="paper-body">
-            <div class="paper-meta">
-              <span>arXiv:2607.24731</span>
-              <span>2026</span>
-              <span>cs.CV, cs.AI, cs.LG</span>
-            </div>
-            <h2>Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation</h2>
-            <p class="authors">
-              Bingnan Li, Haozhe Wang, <strong>Haozhong Xiong</strong>, Fangtai Wu,
-              Jinpeng Yu, Yang Shi, Jiaming Liu, Ruihua Huang
-            </p>
-            <p class="summary">
-              A branch-aware study of classifier-free guidance in on-policy diffusion
-              distillation, with Positive-Direction Matching for robust video control transfer.
-            </p>
-            <div class="paper-actions">
-              <a href="https://arxiv.org/abs/2607.24731">Abstract</a>
-              <a href="https://arxiv.org/pdf/2607.24731">PDF</a>
-              <a href="https://doi.org/10.48550/arXiv.2607.24731">DOI</a>
-              <a href="#bibtex">BibTeX</a>
-            </div>
-          </div>
-        </article>
-      </section>
-
-      <section class="bibtex-panel" id="bibtex" aria-label="BibTeX">
-        <h2>BibTeX</h2>
-        <pre><code>@article{zhang2026uniswap,
-  title         = {UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos},
-  author        = {Zhang, Yuxuan and Xiong, Haozhong and Song, Jiayi and Yu, Jinpeng and Shi, Yang and Liu, Jiaming and Huang, Ruihua and Wang, Liwei},
-  journal       = {arXiv preprint arXiv:2608.11752},
-  year          = {2026},
-  doi           = {10.48550/arXiv.2608.11752},
-  eprint        = {2608.11752},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV},
-  url           = {https://arxiv.org/abs/2608.11752}
-}
-
-@article{zhang2026liveanimate,
-  title         = {LiveAnimate: Stable Long-Form Streaming Human Animation in Real-Time},
-  author        = {Zhang, Yuxuan and Xiong, Haozhong and Huang, Yubo and Song, Jiayi and Yu, Jinpeng and Wang, Haofan and Liu, Jiaming and Huang, Ruihua and Wang, Liwei},
-  journal       = {arXiv preprint arXiv:2608.11745},
-  year          = {2026},
-  doi           = {10.48550/arXiv.2608.11745},
-  eprint        = {2608.11745},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV},
-  url           = {https://arxiv.org/abs/2608.11745}
-}
-
-@article{xiong2026dsar,
-  title         = {DSAR: Dual-Stream Autoregressive Modeling of Temporal Cloth Dynamics for Photorealistic Animatable Avatars},
-  author        = {Xiong, Haozhong and Yu, Yao and Zhou, Yu and Du, Sidan},
-  journal       = {arXiv preprint arXiv:2608.10500},
-  year          = {2026},
-  doi           = {10.48550/arXiv.2608.10500},
-  eprint        = {2608.10500},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV},
-  note          = {Accepted to ECCV 2026},
-  url           = {https://arxiv.org/abs/2608.10500}
-}
-
-@article{li2026rethinkingcfg,
-  title         = {Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation},
-  author        = {Li, Bingnan and Wang, Haozhe and Xiong, Haozhong and Wu, Fangtai and Yu, Jinpeng and Shi, Yang and Liu, Jiaming and Huang, Ruihua},
-  journal       = {arXiv preprint arXiv:2607.24731},
-  year          = {2026},
-  doi           = {10.48550/arXiv.2607.24731},
-  eprint        = {2607.24731},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV},
-  url           = {https://arxiv.org/abs/2607.24731}
+            <div class="paper-info">
+              <h3>
+                <a href="https://arxiv.org/abs/2608.10500">
+                  DSAR: Dual-Stream Autoregressive Modeling of Temporal Cloth Dynamics for Photorealistic Animatable Avatars
+                </a>
+              </h3>
+              <p class="authors"><strong>Haozhong Xiong</strong>, Yao Yu, Yu Zhou, Sidan Du</p>
+              <p class="venue">European Conference on Computer Vision (ECCV), 2026. arXiv:2608.10500.</p>
+              <p class="buttons">
+                <a href="https://arxiv.org/abs/2608.10500">Abs</a>
+                <a href="https://arxiv.org/pdf/2608.10500">PDF</a>
+                <a href="https://doi.org/10.48550/arXiv.2608.10500">DOI</a>
+                <a href="#bibtex-dsar">BibTeX</a>
+                <span>Accepted</span>
+              </p>
+              <details id="bibtex-dsar">
+                <summary>BibTeX</summary>
+                <pre><code>@article{xiong2026dsar,
+  title={DSAR: Dual-Stream Autoregressive Modeling of Temporal Cloth Dynamics for Photorealistic Animatable Avatars},
+  author={Xiong, Haozhong and Yu, Yao and Zhou, Yu and Du, Sidan},
+  journal={arXiv preprint arXiv:2608.10500},
+  year={2026},
+  note={Accepted to ECCV 2026}
 }</code></pre>
-      </section>
-    </main>
+              </details>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="paper-thumb video-paper">
+              <span>AV</span>
+            </div>
+            <div class="paper-info">
+              <h3>
+                <a href="https://arxiv.org/abs/2608.11752">
+                  UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos
+                </a>
+              </h3>
+              <p class="authors">
+                Yuxuan Zhang, <strong>Haozhong Xiong</strong>, Jiayi Song, Jinpeng Yu,
+                Yang Shi, Jiaming Liu, Ruihua Huang, Liwei Wang
+              </p>
+              <p class="venue">arXiv preprint arXiv:2608.11752, 2026.</p>
+              <p class="buttons">
+                <a href="https://arxiv.org/abs/2608.11752">Abs</a>
+                <a href="https://arxiv.org/pdf/2608.11752">PDF</a>
+                <a href="https://doi.org/10.48550/arXiv.2608.11752">DOI</a>
+                <a href="#bibtex-uniswap">BibTeX</a>
+              </p>
+              <details id="bibtex-uniswap">
+                <summary>BibTeX</summary>
+                <pre><code>@article{zhang2026uniswap,
+  title={UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos},
+  author={Zhang, Yuxuan and Xiong, Haozhong and Song, Jiayi and Yu, Jinpeng and Shi, Yang and Liu, Jiaming and Huang, Ruihua and Wang, Liwei},
+  journal={arXiv preprint arXiv:2608.11752},
+  year={2026}
+}</code></pre>
+              </details>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="paper-thumb human-paper">
+              <span>I2V</span>
+            </div>
+            <div class="paper-info">
+              <h3>
+                <a href="https://arxiv.org/abs/2608.11745">
+                  LiveAnimate: Stable Long-Form Streaming Human Animation in Real-Time
+                </a>
+              </h3>
+              <p class="authors">
+                Yuxuan Zhang, <strong>Haozhong Xiong</strong>, Yubo Huang, Jiayi Song,
+                Jinpeng Yu, Haofan Wang, Jiaming Liu, Ruihua Huang, Liwei Wang
+              </p>
+              <p class="venue">arXiv preprint arXiv:2608.11745, 2026.</p>
+              <p class="buttons">
+                <a href="https://arxiv.org/abs/2608.11745">Abs</a>
+                <a href="https://arxiv.org/pdf/2608.11745">PDF</a>
+                <a href="https://doi.org/10.48550/arXiv.2608.11745">DOI</a>
+                <a href="#bibtex-liveanimate">BibTeX</a>
+              </p>
+              <details id="bibtex-liveanimate">
+                <summary>BibTeX</summary>
+                <pre><code>@article{zhang2026liveanimate,
+  title={LiveAnimate: Stable Long-Form Streaming Human Animation in Real-Time},
+  author={Zhang, Yuxuan and Xiong, Haozhong and Huang, Yubo and Song, Jiayi and Yu, Jinpeng and Wang, Haofan and Liu, Jiaming and Huang, Ruihua and Wang, Liwei},
+  journal={arXiv preprint arXiv:2608.11745},
+  year={2026}
+}</code></pre>
+              </details>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="paper-thumb distill-paper">
+              <span>OPD</span>
+            </div>
+            <div class="paper-info">
+              <h3>
+                <a href="https://arxiv.org/abs/2607.24731">
+                  Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation
+                </a>
+              </h3>
+              <p class="authors">
+                Bingnan Li, Haozhe Wang, <strong>Haozhong Xiong</strong>, Fangtai Wu,
+                Jinpeng Yu, Yang Shi, Jiaming Liu, Ruihua Huang
+              </p>
+              <p class="venue">arXiv preprint arXiv:2607.24731, 2026.</p>
+              <p class="buttons">
+                <a href="https://arxiv.org/abs/2607.24731">Abs</a>
+                <a href="https://arxiv.org/pdf/2607.24731">PDF</a>
+                <a href="https://doi.org/10.48550/arXiv.2607.24731">DOI</a>
+                <a href="#bibtex-opd">BibTeX</a>
+              </p>
+              <details id="bibtex-opd">
+                <summary>BibTeX</summary>
+                <pre><code>@article{li2026rethinkingcfg,
+  title={Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation},
+  author={Li, Bingnan and Wang, Haozhe and Xiong, Haozhong and Wu, Fangtai and Yu, Jinpeng and Shi, Yang and Liu, Jiaming and Huang, Ruihua},
+  journal={arXiv preprint arXiv:2607.24731},
+  year={2026}
+}</code></pre>
+              </details>
+            </div>
+          </article>
+        </section>
+
+        <footer>
+          <p>
+            Layout inspired by
+            <a href="https://minimal-light-theme.yliu.me/">Minimal Light</a>.
+          </p>
+        </footer>
+      </main>
+    </div>
   </body>
 </html>
